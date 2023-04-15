@@ -10,7 +10,7 @@ As of creating this, I am currently in the process of finishing the fifth revisi
 
 ### Features
 - Louder amplifier with cleaner output (less interference) and better frequency response (more bass than the original GBC). Demo audio can be found on my YouTube channel on [this playlist](https://www.youtube.com/playlist?list=PLDhmFPH88AsarVaGamZC6ayKIjXoZndGF). You may want to turn your volume down; there are also flashing images (they are oscilloscope views.)
-- Ability to switch between using AAs and a LiPo on the fly by using a switch in the battery bay
+- Ability to switch between using AAs and a LiPo on the fly by using a switch in the battery bay (left for LiPo, right for AA)
 - USB-C safe charge and play with a LiPo battery
 - USB-C powers system with power switch in "off" position when in AA mode
 - 2-stage battery indicator with independently adjustable thresholds for both battery types
