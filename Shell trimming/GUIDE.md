@@ -40,6 +40,20 @@ The front half of the shell needs to be trimmed slightly to accommodate the head
 
 ---
 
+### Make a hole for the charge indicator light pipe
+This step is required if you're using a shell that is opaque, or if the translucent shell color may make the blue charge indicator LED too dim.
+I like to trim the part of the front of the shell that sits above the USB port completely- 
+![Charge pipe preinstall](images/chargepipe_predrill.jpg)
+
+and then drill a hole in it (approximately in the middle) with a 3mm drill. You may need to circle the drill around a few times to widen the hole a bit more so the pipe can fit.
+![Charge pipe drill](images/chargepipe_drill.jpg)
+
+I recommend that you use a pair of tweezers to insert the light pipe initially, and needlenose pliers to push it all the way into the shell. It's a pretty small part!
+![Charge pipe installed](images/chargepipe_install.jpg)
+![Charge pipe installed outside view](images/chargepipe_install_out.jpg)
+
+---
+
 ### Cut the back of the shell for headphone jack
 Next, you want to want to get the rear half of the shell, and cut the plastic away from where I circled. This is after I made the cuts- there is a small divider in the middle that needs to be cut, and a small portion of plastic on the left of the headphone jack needs to be trimmed.
 ![Headphone cuts](images/headphone_cuts.jpg)
@@ -70,10 +84,21 @@ Using a flashlight to see where the port is is helpful. One side of the hole sho
 
 ---
 
-### Create space for USB input LDO and battery mode switch
-This step isn't as important as cutting the USB-C port, but still important to get a functional result. Cut the shell so it looks like this- the opening for the battery mode switch needs to be at least this large, but more plastic can be filed/cut away to make it look cleaner.
+### Create space for battery mode switch
+This step isn't as important as cutting the USB-C port, but still important to get a functional result. Cut the shell so it looks like this- the opening for the battery mode switch needs to be at least this large, but more plastic can be filed/cut away to make it look cleaner. This is applicable to only rev 4 boards:
 ![What to cut](images/back_cuts_no_lipo.jpg)
+
+And this is applicable to rev 5 boards. A small amount still needs to be cut to accommodate for the ceramic capacitors near the battery mode switch.
+![Rev 5 battery switch](images/rev5_switchcut.jpg)
+
+It should look like this inside the battery bay.
 ![Battery switch](images/batteryswitch_cut.jpg)
+
+---
+
+### Create space for 5V decoupling capacitor (REV 5 ONLY)
+While revision 5 doesn't require mangling the shell as much near the battery mode switch, it does require the back half to be trimmed to accommodate for a capacitor.
+![Rev 5 capacitor cut](images/rev5_capcut.jpg)
 
 ---
 
